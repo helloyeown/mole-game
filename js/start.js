@@ -1,5 +1,6 @@
 var requestId;
 var html ;
+var mode;
 
 function loadPage(requestId){
 
@@ -25,7 +26,11 @@ function mainPage(){
     loadPage(requestId);
 }
 
-function ready(){
+function ready(difficulty){
+    mode = difficulty;
+
+    localStorage.setItem('mode', mode);
+
     requestId = 'GM-008';
     loadPage(requestId);
 }

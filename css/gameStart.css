@@ -64,6 +64,17 @@
     float: left;
     position: static;
     left: 2%;
+    z-index: 1;
+}
+/* 이미지를 반으로 나눔 */
+.boxList::before {
+    content: ""; /* 필수: 가상 요소에 내용이 없어도 되도록 설정 */
+    position: absolute;
+    top: 60%;
+    left: 0;
+    height: 40%; /* 상단 50%만큼 높이 설정 */
+    width: 100%; /* 전체 너비 */
+    z-index: -1;
 }
 .hole{
     border: 1px solid black;
@@ -124,6 +135,7 @@
 }
 #modalPage, #modalPage2{
     padding-top: 10px;
+    height: 400px;
 }
 #modalPage .textSize{
     font-size: 30px;

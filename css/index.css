@@ -44,30 +44,19 @@
 }
 
 #bottom{
-    border-radius: 20px;
-    border : 1px solid black; 
-    width: 700px; 
-    height:  250px;
-    margin: auto;
-    /*margin-top: 100px;*/
-    position:absolute;
-    top: 60%;
-    left: 50%;
-    place-items: center;
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    border: 2px solid black;
+    position: absolute;
+    display: flex;
+    top: 45%;
+    left: 13%;
 }
-#gameBtn{   
-    height: 99%;
-    width: 99%;
+#gameBtn{
+    width: 300px;
+    height: 100px;
     border-radius: 20px;
     cursor: pointer;
-    border: none;
+    border: 1 solid black;
     background-color: white;
     font-size: 50px;
     text-align: center;
+    margin: 20px;
 }
