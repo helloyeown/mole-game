@@ -70,6 +70,8 @@ function mainPage(){    // 초기화면
 var startClick = false;
 
 function startGame(){   //게임 시작
+    console.log('start game')
+
     audio.currentTime = 0;
     audio.play();
 
@@ -194,14 +196,15 @@ function randomHole(mode) { // 번호 랜덤 생성
 }
 
 function showMole() {
-    setTimeout(() => {
+    setTimeout(function() {
         // 두더지 이미지 삭제 후 다시 호출
-        setTimeout(() => {
+        setTimeout(function() {
             // hole.removeChild(imgElement);
             showMole(hole); // 재귀적으로 호출하여 반복
         }, 500); // 두더지가 사라지는 시간
     }, Math.random() * 2000 + 500); // 각 구멍별로 랜덤한 시간 간격
 }
+
 
 
 function handleMoleClick(event) {   // 두더지를 클릭했을때
