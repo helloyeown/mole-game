@@ -186,6 +186,13 @@
 #warning{
     margin-top: 20px;
 }
+#instruction {
+    position: absolute;
+    top: 30%;
+    left: 3%;
+}
+
+
 /*
 @-webkit-keyframes moleEnter {
     0% {

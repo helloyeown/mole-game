@@ -3,7 +3,6 @@ var html ;
 var mode;
 
 function loadPage(requestId){
-
     if(requestId === 'GM-001'){
         html = 'index.html';
     }
