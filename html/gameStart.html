@@ -25,23 +25,29 @@
             
             <div id="modalPage" class="display-first display-none">
                 <div class="textSize" id="warning">WARNING!</div>
-                <br><br>
-                <div class="textSize">점수를 모두 잃게 됩니다. <br>그래도 나가시겠습니까?</div>
-
-                <br><br><br>
-                <button class="modalBtn" type="button" onclick="loseScore();">OK</button>
-                <button class="modalBtn" type="button" onclick="continueGame();">NO</button>
+                <div class="textSize" id="warningIns">
+                    <p>점수를 모두 잃게 됩니다.<br></p>
+                    <p>그래도 나가시겠습니까?</p>
+                </div>
+                <div id="warningSelectBtn">
+                    <button class="modalBtn" type="button" onclick="loseScore();">OK</button>
+                    <button class="modalBtn" type="button" onclick="continueGame();">NO</button>
+                </div>
             </div>
 
             <div id="modalPage2" class="display-first display-none">
                 <div class="gameOver">GAME OVER!</div>
-                <br><br>
-                <div class="score-text" id="final-score">SCORE : 0</div>
-                <div class="best-text" id="final-bestScore">BEST SCORE : 0</div>
+                <!-- <br><br> -->
+                <div id="scoreDiv">
+                    <div class="score-text" id="final-score">SCORE : 0</div>
+                    <div class="best-text" id="final-bestScore">BEST SCORE : 0</div>
+                </div>    
 
-                <br><br><br>
-                <button class="modalBtn2" type="button" onclick="ready();">↻</button>
-                <button class="modalBtn2" type="button" onclick="mainPage();">✕</button>
+                <!-- <br><br><br> -->
+                <div id="gameOverSelectBtn">
+                    <button class="modalBtn2" type="button" onclick="ready();">↻</button>
+                    <button class="modalBtn2" type="button" onclick="mainPage();">✕</button>
+                </div>
             </div>
 
             <div id="howList" class="display-first">
@@ -55,7 +61,7 @@
                     <p>- 두더지를 못 잡을 경우 또는 함정 두더지를 잡을 경우, 즉시 GAME OVER 된다.</p>
                 </div>
                 
-                <br><br><br>
+                <!-- <br><br><br> -->
                 <div id="start">
                     <button type="button" id="playButton" onclick="startGame()">▶</button>
                 </div>

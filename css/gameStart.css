@@ -162,6 +162,21 @@
     border: none;
     cursor: pointer;
 }
+#warningIns {
+    position: absolute;
+    left: 7%;
+    top: 34%;
+    line-height: 0.5;
+}
+#warningSelectBtn, #gameOverSelectBtn {
+    position: absolute;
+    bottom: 8%;
+}
+#scoreDiv {
+    position: absolute;
+    top: 32%;
+    left: 20%;
+}
 .box{
     position: relative
 }
@@ -174,6 +189,9 @@
 .gameOver{
     font-size: 35px;
     text-align: center;
+    position: absolute;
+    top: 8%;
+    left: 22%;
 }
 .score-text{
     font-size: 40px;
