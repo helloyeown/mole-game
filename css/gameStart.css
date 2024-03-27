@@ -158,18 +158,21 @@
     cursor: pointer;
 }
 #warningIns {
-    position: absolute;
+    /* position: absolute;
     left: 11%;
-    top: 37%;
+    top: 37%; */
+    margin-top: 20%;
 }
+
 #warningSelectBtn, #gameOverSelectBtn {
     position: absolute;
     bottom: 8%;
 }
 #scoreDiv {
-    position: absolute;
+    /* position: absolute;
     top: 32%;
-    left: 20%;
+    left: 20%; */
+    margin-top: 28%;
 }
 .box{
     position: relative
