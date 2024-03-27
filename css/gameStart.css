@@ -124,14 +124,9 @@
     background-color: white;
     
     position:absolute;
-    top: 50%;
-    left: 50%;
+    top: 29%;
+    left: 33%;
     place-items: center;
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
 }
 #modalPage, #modalPage2{
     padding-top: 10px;
@@ -164,9 +159,8 @@
 }
 #warningIns {
     position: absolute;
-    left: 7%;
-    top: 34%;
-    line-height: 0.5;
+    left: 11%;
+    top: 37%;
 }
 #warningSelectBtn, #gameOverSelectBtn {
     position: absolute;
